@@ -1,0 +1,26 @@
+<SideBarConfig version="1.0">
+  <SideBar activetab="${res:SharpDevelop.SideBar.CSharpDocumentationTags}">
+    <SideTab clipboardring="true" text="${res:SharpDevelop.SideBar.ClipboardRing}">
+      <SideTabItem text="//https://stackoverflow.com/questions/5266069/s..." value="&#xD;&#xA;      //https://stackoverflow.com/questions/5266069/streamwriter-and-utf-8-byte-order-marks&#xD;&#xA;      //https://codyclaborn.me/tutorials/handling-utf8-encoding-with-csharp-process/&#xD;&#xA;      //https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.process.getcurrentprocess?view=netcore-3.1&#xD;&#xA;      " />
+      <SideTabItem text="Encoding utf8_no_bom     = new System.Text.UTF8..." value="      Encoding utf8_no_bom     = new System.Text.UTF8Encoding(false);&#xD;&#xA;      StreamWriter writer_out  = new StreamWriter(Console.OpenStandardOutput(),utf8_no_bom);&#xD;&#xA;" />
+      <SideTabItem text="Encoding utf8_no_bom     = new System.Text.UTF8..." value="    Encoding utf8_no_bom     = new System.Text.UTF8Encoding(false);&#xD;&#xA;    StreamWriter writer_out  = new StreamWriter(Console.OpenStandardOutput(),utf8_no_bom);&#xD;&#xA;    StreamWriter writer_in   = new StreamWriter(Console.OpenStandardInput(),utf8_no_bom);&#xD;&#xA;    StreamWriter writer_err  = new StreamWriter(Console.OpenStandardError(),utf8_no_bom);&#xD;&#xA;" />
+      <SideTabItem text="this.textBox2.Text" value="this.textBox2.Text" />
+      <SideTabItem text="writer_out.Write(&quot;&quot;);&#xD;" value="      writer_out.Write(&quot;&quot;);&#xD;&#xA;      writer_out.Flush();&#xD;&#xA;      writer_out.Close();&#xD;&#xA;      &#xD;&#xA;      Environment.ExitCode = 1; //&quot;Cancel&quot;.&#xD;&#xA;      this.Close();&#xD;&#xA;" />
+      <SideTabItem text="public partial class MainForm : Form" value="public partial class MainForm : Form" />
+      <SideTabItem text="Encoding utf8_no_bom     = new System.Text.UTF8..." value="      Encoding utf8_no_bom     = new System.Text.UTF8Encoding(false);&#xD;&#xA;      StreamWriter writer_out  = new StreamWriter(Console.OpenStandardOutput(),utf8_no_bom);&#xD;&#xA;      StreamWriter writer_in   = new StreamWriter(Console.OpenStandardInput(),utf8_no_bom);&#xD;&#xA;      StreamWriter writer_err  = new StreamWriter(Console.OpenStandardError(),utf8_no_bom);&#xD;&#xA;      &#xD;&#xA;      writer_out.Write(&quot;aaaaaa&quot;);&#xD;&#xA;      //writer_out.Flush();  //optional.&#xD;&#xA;      //writer_out.Close();  //optional.&#xD;&#xA;" />
+      <SideTabItem text="writer_out" value="writer_out" />
+      <SideTabItem text="StreamWriter writer_in  = new StreamWriter(Cons..." value="      StreamWriter writer_in  = new StreamWriter(Console.OpenStandardInput(),utf8_no_bom);" />
+      <SideTabItem text="StreamWriter writer_out = new StreamWriter(Cons..." value="StreamWriter writer_out = new StreamWriter(Console.OpenStandardOutput(),utf8_no_bom);" />
+      <SideTabItem text="Encoding utf8_no_bom = new System.Text.UTF8Enco..." value="Encoding utf8_no_bom = new System.Text.UTF8Encoding(false);&#xD;&#xA;      StreamWriter writer = new StreamWriter(Console.OpenStandardOutput(),utf8_no_bom);&#xD;&#xA;      writer.Write(&quot;aaaaaaaa&quot;);&#xD;&#xA;      writer.Flush();&#xD;&#xA;      writer.Close();" />
+      <SideTabItem text="Console.InputEncoding = Encoding.UTF8;   //--ca..." value="      Console.InputEncoding = Encoding.UTF8;   //--can not do that unless you set project properties first to output-type &quot;console application&quot;. Or you'll get IO-error invalid-stream.&#xD;&#xA;      Console.OutputEncoding = Encoding.UTF8;  //--can not do that unless you set project properties first to output-type &quot;console application&quot;. Or you'll get IO-error invalid-stream.&#xD;&#xA;" />
+      <SideTabItem text="Or you'll get IO-error invalid-stream." value=" Or you'll get IO-error invalid-stream." />
+      <SideTabItem text="//--can not do that unless you set project prop..." value="//--can not do that unless you set project properties first to output-type &quot;console application&quot;." />
+      <SideTabItem text="Console.InputEncoding" value="Console.InputEncoding" />
+      <SideTabItem text="Console.OutputEncoding = Encoding.UTF8;" value="Console.OutputEncoding = Encoding.UTF8;" />
+      <SideTabItem text="Process.GetCurrentProcess().StartInfo" value="Process.GetCurrentProcess().StartInfo" />
+      <SideTabItem text="using System.Runtime.InteropServices;" value="using System.Runtime.InteropServices;" />
+      <SideTabItem text="Encoding.UTF8" value="Encoding.UTF8" />
+      <SideTabItem text="Process.GetCurrentProcess()." value="Process.GetCurrentProcess()." />
+    </SideTab>
+  </SideBar>
+</SideBarConfig>

@@ -1,0 +1,14 @@
+*.exe            binary
+*.dll            binary
+*.rtf            binary
+*.png            binary
+
+*.cmd            text    eol=crlf
+*.txt            text    eol=crlf
+*.xml            text    eol=crlf
+*.addin          text    eol=crlf
+*.config         text    eol=crlf
+*.ps1xml         text    eol=crlf
+*.manifest       text    eol=crlf
+
+README.md                eol=crlf
